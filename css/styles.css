@@ -8,11 +8,13 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--primary-bg-color);
     color: var(--title-text-color);
+    font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
 }
 /* Стилізація хедера */
 .header-section{
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 ul{
     list-style: none;
@@ -21,7 +23,6 @@ a{
     text-decoration: none;
 }
 .logo{
-    display: block;
     color: #000;
     font-family: 'Raleway';
     font-weight: 700;
@@ -31,15 +32,9 @@ a{
 span{
     color: var(--accent-color);
 }
-.illumination-btn{
-    background-color: var(--accent-color);
-    color: #fff;
-}
 .nav-link{
     color: var(--title-text-color);
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .illumination{
@@ -52,8 +47,6 @@ span{
 .nav-contacts{
     color: var(--primary-text-color);
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .nav-contacts:hover,
@@ -63,7 +56,7 @@ span{
 /* Стилізація головного контенту сторінки */
 .main{
     background-color: #2F303A;
-    color: #FFFFFF;
+    color: var(--primary-bg-color);
 }
 .main-title{
     font-weight: 900;
@@ -81,15 +74,13 @@ button{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     width: 200px;
     height: 50px;
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    color: #FFFFFF;
+    color: var(--primary-bg-color);
     border:none;
 }
 .main-button:hover,
@@ -100,18 +91,22 @@ button{
     background-color: #27619b;
 }
 .portfolio-button{
+    background: #F5F4FA;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
     padding: 6px 22px;
     border-radius: 4px;
     border:none;
 }
+.illumination-btn{
+    background-color: var(--accent-color);
+    color: var(--primary-bg-color);
+}
 .portfolio-button:hover,
 .portfolio-button:focus{
     background-color: var(--accent-color);
-    color: #fff;
+    color: var(--primary-bg-color);
 }
 .portfolio-button:active{
     background-color: #267bc6;
@@ -129,18 +124,13 @@ button{
     overflow: hidden; 
 }
 .benefits-title{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
     text-transform: uppercase;
 }
 .benefits-text{
     color: var(--primary-text-color);
-    font-size: 14px;
     line-height: 1.71;
 }
 .title{    
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -168,9 +158,8 @@ button{
     border-radius: 0px 0px 4px 4px;
 }
 .portfolio-card-title{
-    font-weight: 700;
     font-size: 18px;
-    line-height: 2.00;    
+    line-height: 2;    
     letter-spacing: 0.06em;
 }
 .portfolio-name-industry{ 
@@ -193,14 +182,12 @@ address{
     font-style: normal;
 }
 .footer-link{
-    font-size: 14px;
-    line-height: 1.71;
     color: #FFFFFF;
+    line-height: 1.71;
 }
 .footer-contacts{
-    font-size: 14px;
-    line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
+    line-height: 1.71;
 }
 .footer-contacts:hover,
 .footer-contacts:focus{
