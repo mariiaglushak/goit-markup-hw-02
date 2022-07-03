@@ -124,6 +124,7 @@ button{
     overflow: hidden; 
 }
 .benefits-title{
+    font-size: 14px;
     text-transform: uppercase;
 }
 .benefits-text{
